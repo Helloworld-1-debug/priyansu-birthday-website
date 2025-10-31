@@ -8,6 +8,7 @@ import photo4 from "@assets/fetch_1761934855206.jpeg";
 import photo5 from "@assets/fetch (4)_1761934864217.jpeg";
 import photo6 from "@assets/fetch (5)_1761934864218.jpeg";
 import photo7 from "@assets/fetch (6)_1761934864218.jpeg";
+import birthdayCard from "@assets/s2_1761935098149.jpg";
 
 export default function Wishes() {
   const [, setLocation] = useLocation();
@@ -110,12 +111,23 @@ export default function Wishes() {
             </div>
           </div>
 
-          <div className="max-w-3xl mx-auto mb-16 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <div className="max-w-4xl mx-auto mb-16 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+            <div className="mb-12">
+              <Card className="overflow-hidden shadow-2xl bg-white/90 dark:bg-card/90 backdrop-blur-sm">
+                <img 
+                  src={birthdayCard} 
+                  alt="Birthday Card for Priyansu Senior" 
+                  className="w-full h-auto"
+                  data-testid="img-birthday-card"
+                />
+              </Card>
+            </div>
+
             <Card className="border-l-4 border-l-amber-500 shadow-2xl bg-white/90 dark:bg-card/90 backdrop-blur-sm">
               <CardContent className="p-8 md:p-12">
                 <div className="space-y-6 text-foreground">
                   <p className="text-lg md:text-xl leading-relaxed">
-                    Dear <span className="font-semibold text-blue-700 dark:text-blue-300">Priyansu Bhaiya</span>,
+                    Dear <span className="font-semibold text-blue-700 dark:text-blue-300">Priyansu Senior</span>,
                   </p>
                   
                   <p className="text-lg md:text-xl leading-relaxed">
@@ -187,27 +199,27 @@ export default function Wishes() {
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-5xl mx-auto">
               <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300">
-                <img src={photo3} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <img src={photo3} alt="Memory with Priyansu Senior" className="w-full h-48 md:h-56 object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
               
               <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300">
-                <img src={photo4} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <img src={photo4} alt="Memory with Priyansu Senior" className="w-full h-48 md:h-56 object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
               
               <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300">
-                <img src={photo5} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <img src={photo5} alt="Memory with Priyansu Senior" className="w-full h-48 md:h-56 object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
               
               <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300 col-span-2 md:col-span-1">
-                <img src={photo6} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <img src={photo6} alt="Memory with Priyansu Senior" className="w-full h-48 md:h-56 object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
               
               <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300 col-span-2">
-                <img src={photo7} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <img src={photo7} alt="Memory with Priyansu Senior" className="w-full h-48 md:h-56 object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
             </div>
