@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Heart } from "lucide-react";
+import priyansuPhoto from "@assets/fetch (3)_1761934789364.jpeg";
 
 declare global {
   interface Window {
@@ -110,17 +111,13 @@ export default function Welcome() {
           <div className="flex justify-center py-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-blue-500 rounded-full blur-2xl opacity-30 animate-pulse"></div>
-              <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full border-4 border-amber-400 dark:border-amber-500 shadow-2xl overflow-hidden bg-gradient-to-br from-amber-50 to-blue-50 dark:from-amber-900/20 dark:to-blue-900/20">
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                  <div className="text-center space-y-2">
-                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                      <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                      <polyline points="21 15 16 10 5 21"></polyline>
-                    </svg>
-                    <p className="text-sm px-4">Priyansu's photo will appear here</p>
-                  </div>
-                </div>
+              <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full border-4 border-amber-400 dark:border-amber-500 shadow-2xl overflow-hidden">
+                <img 
+                  src={priyansuPhoto} 
+                  alt="Priyansu Pradhan"
+                  className="w-full h-full object-cover object-center"
+                  data-testid="img-priyansu"
+                />
               </div>
               <div className="absolute -top-2 -right-2 w-12 h-12 bg-amber-400 dark:bg-amber-500 rounded-full flex items-center justify-center shadow-lg">
                 <Sparkles className="text-white" size={24} />
