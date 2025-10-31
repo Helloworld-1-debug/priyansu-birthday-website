@@ -3,6 +3,11 @@ import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Heart, Sparkles, Lightbulb, Award, Users } from "lucide-react";
+import photo3 from "@assets/fetch 3_1761934855205.jpeg";
+import photo4 from "@assets/fetch_1761934855206.jpeg";
+import photo5 from "@assets/fetch (4)_1761934864217.jpeg";
+import photo6 from "@assets/fetch (5)_1761934864218.jpeg";
+import photo7 from "@assets/fetch (6)_1761934864218.jpeg";
 
 export default function Wishes() {
   const [, setLocation] = useLocation();
@@ -121,9 +126,17 @@ export default function Wishes() {
                     <p className="text-lg md:text-xl font-serif italic text-right text-muted-foreground">
                       With respect and warm wishes,
                     </p>
-                    <p className="text-xl md:text-2xl font-semibold text-right text-blue-700 dark:text-blue-300 mt-2">
-                      Aryan Agrawal
-                    </p>
+                    <div className="text-right mt-2 space-y-1">
+                      <p className="text-xl md:text-2xl font-semibold text-blue-700 dark:text-blue-300">
+                        Aryan Agrawal
+                      </p>
+                      <p className="text-xl md:text-2xl font-semibold text-blue-700 dark:text-blue-300">
+                        Biswajit Baral
+                      </p>
+                      <p className="text-xl md:text-2xl font-semibold text-blue-700 dark:text-blue-300">
+                        Subhasish Sahu
+                      </p>
+                    </div>
                   </div>
                 </div>
               </CardContent>
@@ -168,7 +181,39 @@ export default function Wishes() {
             })}
           </div>
 
-          <div className="text-center mt-16 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
+          <div className="mt-16 mb-12 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-8 text-center">
+              Memories Together
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-5xl mx-auto">
+              <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300">
+                <img src={photo3} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              </div>
+              
+              <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300">
+                <img src={photo4} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              </div>
+              
+              <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300">
+                <img src={photo5} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              </div>
+              
+              <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300 col-span-2 md:col-span-1">
+                <img src={photo6} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              </div>
+              
+              <div className="relative group overflow-hidden rounded-2xl shadow-lg hover-elevate active-elevate-2 transition-all duration-300 col-span-2">
+                <img src={photo7} alt="Memory with Priyansu" className="w-full h-48 md:h-56 object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-16 animate-fade-in-up" style={{ animationDelay: '1s' }}>
             <div className="inline-block bg-gradient-to-r from-blue-100 to-amber-100 dark:from-blue-900/30 dark:to-amber-900/30 rounded-2xl p-8 md:p-12 shadow-xl border border-amber-200 dark:border-amber-800">
               <Heart className="inline-block text-red-500 fill-red-500 mb-4 animate-pulse" size={48} />
               <p className="text-2xl md:text-3xl font-serif font-bold text-foreground">
