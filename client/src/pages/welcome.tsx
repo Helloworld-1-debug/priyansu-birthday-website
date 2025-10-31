@@ -3,6 +3,8 @@ import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Heart } from "lucide-react";
 import priyansuPhoto from "@assets/fetch (3)_1761934789364.jpeg";
+import photo1 from "@assets/fetch (1)_1761934855205.jpeg";
+import photo2 from "@assets/fetch (2)_1761934855204.jpeg";
 
 declare global {
   interface Window {
@@ -98,6 +100,22 @@ export default function Welcome() {
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-16">
+        <div className="hidden md:block absolute top-24 left-8 lg:left-20 animate-fade-in-up" style={{ animationDelay: '1s' }}>
+          <div className="relative rotate-[-8deg] hover:rotate-[-4deg] transition-transform duration-300">
+            <div className="bg-white dark:bg-card p-3 rounded-lg shadow-2xl border-2 border-amber-300 dark:border-amber-600">
+              <img src={photo1} alt="Priyansu" className="w-32 h-40 object-cover rounded" />
+            </div>
+          </div>
+        </div>
+
+        <div className="hidden md:block absolute top-32 right-8 lg:right-20 animate-fade-in-up" style={{ animationDelay: '1.2s' }}>
+          <div className="relative rotate-[6deg] hover:rotate-[3deg] transition-transform duration-300">
+            <div className="bg-white dark:bg-card p-3 rounded-lg shadow-2xl border-2 border-blue-300 dark:border-blue-600">
+              <img src={photo2} alt="Priyansu" className="w-32 h-40 object-cover rounded" />
+            </div>
+          </div>
+        </div>
+
         <div className="text-center space-y-8 max-w-4xl animate-fade-in-up">
           <div className="space-y-4">
             <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-blue-600 via-blue-700 to-amber-500 dark:from-blue-400 dark:via-blue-500 dark:to-amber-400 bg-clip-text text-transparent leading-tight">
