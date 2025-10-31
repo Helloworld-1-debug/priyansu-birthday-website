@@ -103,7 +103,7 @@ export default function Welcome() {
         <div className="hidden md:block absolute top-24 left-8 lg:left-20 animate-fade-in-up" style={{ animationDelay: '1s' }}>
           <div className="relative rotate-[-8deg] hover:rotate-[-4deg] transition-transform duration-300">
             <div className="bg-white dark:bg-card p-3 rounded-lg shadow-2xl border-2 border-amber-300 dark:border-amber-600">
-              <img src={photo1} alt="Priyansu" className="w-32 h-40 object-cover rounded" />
+              <img src={photo1} alt="Priyansu Senior" className="w-32 h-40 object-cover rounded" />
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function Welcome() {
         <div className="hidden md:block absolute top-32 right-8 lg:right-20 animate-fade-in-up" style={{ animationDelay: '1.2s' }}>
           <div className="relative rotate-[6deg] hover:rotate-[3deg] transition-transform duration-300">
             <div className="bg-white dark:bg-card p-3 rounded-lg shadow-2xl border-2 border-blue-300 dark:border-blue-600">
-              <img src={photo2} alt="Priyansu" className="w-32 h-40 object-cover rounded" />
+              <img src={photo2} alt="Priyansu Senior" className="w-32 h-40 object-cover rounded" />
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function Welcome() {
               <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full border-4 border-amber-400 dark:border-amber-500 shadow-2xl overflow-hidden">
                 <img 
                   src={priyansuPhoto} 
-                  alt="Priyansu Pradhan"
+                  alt="Priyansu Senior"
                   className="w-full h-full object-cover object-center"
                   data-testid="img-priyansu"
                 />
@@ -146,7 +146,7 @@ export default function Welcome() {
           <div className="max-w-2xl mx-auto space-y-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="bg-white/80 dark:bg-card/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-amber-200 dark:border-card-border">
               <p className="text-lg md:text-xl text-foreground leading-relaxed">
-                <span className="font-semibold text-blue-700 dark:text-blue-300">Priyansu Pradhan</span> is a distinguished student at{" "}
+                <span className="font-semibold text-blue-700 dark:text-blue-300">Priyansu Senior</span> is a distinguished student at{" "}
                 <span className="font-semibold text-blue-700 dark:text-blue-300">SOA University</span>, 
                 a dedicated member of the <span className="font-semibold text-blue-700 dark:text-blue-300">SOA NCC team</span>, 
                 and a passionate enthusiast of <span className="font-semibold text-amber-600 dark:text-amber-400">IoT and Robotics</span>. 
@@ -165,12 +165,6 @@ export default function Welcome() {
               View Birthday Wishes
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={24} />
             </Button>
-          </div>
-
-          <div className="pt-4 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
-            <p className="text-sm text-muted-foreground italic">
-              Made with <Heart className="inline w-4 h-4 text-red-500 fill-red-500 animate-pulse" /> by Aryan Agrawal
-            </p>
           </div>
         </div>
       </div>
