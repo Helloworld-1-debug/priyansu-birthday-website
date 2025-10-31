@@ -1,0 +1,71 @@
+Create a beautiful, two-page birthday website dedicated to Priyansu Pradhan, a respected senior from SOA University.
+
+🎂 Purpose: This website is made by Aryan Agrawal, his junior, to wish him a very happy birthday (31st October 2025) and express admiration and respect for him.
+
+🧑‍🎓 About the Person:
+
+Name: Priyansu Pradhan
+
+College: SOA University
+
+Member of the SOA NCC team
+
+Great person with deep interest in IoT and Robotics
+
+Known for being kind, dedicated, and inspiring to juniors
+
+🌐 Website Structure:
+
+Page 1: Birthday Welcome Page
+
+Bright and joyful “Happy Birthday Priyansu Pradhan 🎉” heading
+
+Fun birthday theme with confetti animation, balloons, or sparkles
+
+Include one of his photos (I will upload it)
+
+A short paragraph introducing who he is
+
+A “Go to Wishes” button linking to Page 2
+
+Page 2: Birthday Wish & Compliments
+
+Display a warm, respectful message from me (Aryan Agrawal) to him
+
+Include some compliments about him as a senior and as a person
+
+Optionally, a few decorative animations like floating hearts or light effects
+
+Space for additional photos if needed
+
+✨ Design Style:
+
+Modern, fun, and respectful — showing birthday vibes
+
+Use bright celebratory colors (like gold, royal blue, and white)
+
+Clean layout with smooth transitions or hover effects
+
+Responsive design is optional, but keep it fast-loading and visually appealing
+
+💬 Important Section (Birthday Wish from Aryan Agrawal):
+
+“Dear Priyansu Bhaiya,
+Wishing you a very Happy Birthday! You are not just a great senior but also an amazing human being who inspires everyone around with your passion for IoT, Robotics, and discipline through NCC. Your guidance and positive attitude motivate me every day. May this year bring you more success, happiness, and endless achievements.
+
+— With respect and warm wishes,
+Aryan Agrawal 🎉”
+
+🖼️ Media:
+
+I will upload images of Priyansu for the website (use them appropriately)
+
+🛠️ Technical Requirements:
+
+Build with simple and fast technologies (HTML, CSS, JS, or any lightweight framework like React if needed)
+
+No backend required
+
+Focus on smooth visuals and easy navigation between the two pages
+
+✅ Goal: A fast, cheerful, and respectful birthday website that clearly celebrates Priyansu Pradhan and includes my (Aryan Agrawal’s) heartfelt wishes.
